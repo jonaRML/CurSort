@@ -110,7 +110,7 @@ function Form() {
       !e.descripcion
     ) {
       
-      axios.post('http://localhost:3001/courses',input)
+      axios.post('https://cursort-production-2088.up.railway.app/courses',input)
         .then(res => {
             onOpen();
             setInput({

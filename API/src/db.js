@@ -6,7 +6,7 @@ const {
   DB_USER, DB_PASSWORD, DB_HOST, DB_DEPLOY
 } = process.env;
 
- const sequelize = new Sequelize(`postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/cursort`, {
+ const sequelize = new Sequelize(`postgresql://postgres:AbnViGCJJtKv2rfFWA9W@containers-us-west-140.railway.app:6242/railway`, {
    logging: false, 
    native: false, 
  });
